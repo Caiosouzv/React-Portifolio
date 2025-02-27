@@ -1,0 +1,97 @@
+#main-second-page {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+#about-me {
+    width: 85%;
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+#rigth-second-page {
+    width: 15%;
+    padding-top: 14%;
+}
+
+#detalhe-bolinha-second {
+    width: 70%;
+    height: 70%;
+}
+
+#corredor-bolinhas-second {
+    margin-left: 10%;
+    width: 18%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bolinha01,
+.bolinha02,
+.bolinha03,
+.bolinha04,
+.bolinha05 {
+    width: 92%;
+    height: 12%;
+    border-radius: 50%;
+    border: solid 4px #232323;
+}
+
+.bolinha01 {
+    background-color: #FB8104;
+}
+
+.bolinha02 {
+    background-color: #c86400;
+}
+
+.bolinha03 {
+    background-color: #a45200;
+}
+
+.bolinha04 {
+    background-color: #7e3f00;
+}
+
+.bolinha05 {
+    background-color: #502800;
+}
+
+#sobre {
+    width: 70%;
+    height: 7%;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 2%;
+    color: #7D6033;
+    text-align: left;
+}
+
+#quem-sou {
+    width: 70%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 4%;
+    color: #5E4115;
+    text-align: left;
+}
+
+#sobre-mim {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7A551C;
+    line-height: 3.5vh;
+    text-align: left;
+}
+
+#uem {
+    color: #97794A;
+}
+
+.diferente {
+    color: #432B06;
+}

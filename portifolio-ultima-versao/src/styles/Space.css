@@ -1,0 +1,7 @@
+.space {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Ajuste a margem conforme necessário */
+}

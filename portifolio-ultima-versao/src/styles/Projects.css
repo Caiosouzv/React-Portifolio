@@ -1,0 +1,193 @@
+#main-fourty-page {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+#meustxt {
+    width: 70%;
+    height: 4%;
+    font-size: 23px;
+    padding-right: 2%;
+    display: flex;
+    justify-content: end;
+    color: #432B06;
+}
+
+#projetostxt {
+    width: 70%;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    color: #96784C;
+}
+
+#section-projects {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#proj01,
+#proj02 {
+    width: 48%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    border: solid 3px #2D200A;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+#proj01 {
+    background-color: #755A31;
+    color: #d9c29a;
+}
+
+#proj01:hover {
+    background-color: #564224;
+}
+
+#proj01:hover #botao01 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#ked {
+    color: #e7dac4;
+}
+
+#info-basica01 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffeed1;
+    margin-top: 1%;
+}
+
+#botao01 {
+    background-color: transparent;
+    width: 40%;
+    height: 8%;
+    border: solid 3px #dbccb3;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#botao01:hover {
+    box-shadow: 1px 1px 10px #8d8476;
+}
+
+#botao01 a {
+    text-decoration: none;
+    color: #dbccb3;
+}
+
+#imagem-projetos {
+    position: absolute;
+    width: 40%;
+    left: -10%;
+    top: 45%;
+}
+
+#proj02 {
+    background-color: #D8D2C8;
+    color: #3c2b13;
+}
+
+#proj02:hover {
+    background-color: rgb(205, 200, 190);
+}
+
+#proj02:hover #botao02 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#mer {
+    color: #6b4f27;
+}
+
+#info-basica02 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6b4f27;
+    margin-top: 1%;
+}
+
+#botao02 {
+    background-color: transparent;
+    width: 40%;
+    height: 8%;
+    border: solid 3px #4a3519;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#botao02:hover {
+    box-shadow: 1px 1px 10px #745732;
+}
+
+#botao02 a {
+    text-decoration: none;
+    color: #4a3519;
+}
+
+#link-github{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    height: 13%;
+    align-items: end;
+    
+}
+
+#texto-git{
+    width: 30%;
+    height: 40%;
+    text-align: start;
+    color: #9E7A43;
+    font-size: 17px;
+}
+
+#texto-git a {
+    color: #825b20;
+    text-decoration: none;
+    font-size: 19px;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+#texto-git a:hover {
+    color: #553a12;
+    text-decoration: none;
+    transition: .4s ease;
+    font-weight: 600;
+}
+

@@ -1,0 +1,54 @@
+header {
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    position: fixed; /* Fixa o header no topo */
+    top: 0; /* Alinha o header no topo da página */
+    left: 0; /* Alinha o header à esquerda */
+    width: 100%; /* Ocupa toda a largura da tela */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    background-color: #D8D8D8;
+}
+
+ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    width: 10%;
+    color: #5E4115;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+li a{
+    text-decoration: none;
+    color: #5E4115;
+}
+
+#space {
+    width: 55%;
+}
+
+#kyo a{
+    color: #a4814d;
+    width: 10%;
+    font-size: 27px;
+    display: flex;
+    justify-content: left;
+    font-weight: 300;
+}
+
+#K {
+    color: #5E4115;
+}

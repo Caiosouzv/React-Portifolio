@@ -1,0 +1,174 @@
+#main-third-page {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+
+#sei-fazer {
+    width: 70%;
+    height: 18%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #432B06;
+    display: flex;
+    justify-content: end;
+}
+
+#oqfazer {
+    color: #937241;
+}
+
+#barras-skills {
+    height: 35%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#javascript,
+#reactjs,
+#type,
+#css {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#borda-js,
+#borda-rj,
+#borda-type,
+#borda-css {
+    width: 85%;
+    height: 90%;
+    background-color: transparent;
+    border: 3px solid #373737;
+    display: flex;
+    justify-content: end;
+}
+
+#js-conteudo {
+    background-color: #9E7A43;
+    height: 100%;
+}
+
+#reactjs-conteudo {
+    background-color: #937A56;
+    height: 100%;
+}
+
+#type-conteudo {
+    background-color: #AE7F36;
+    height: 100%;
+}
+
+#css-conteudo {
+    background-color: #937A56;
+    height: 100%;
+}
+
+.linguagem {
+    width: 12%;
+    display: flex;
+    justify-content: start;
+    font-size: 25px;
+    font-weight: 600;
+    color: #432B06;
+}
+
+#skills-baixo {
+    width: 70%;
+    height: 15%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.svg-skills {
+    width: 11%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.svg-skills:hover {
+    fill: #494175;
+}
+
+#htmlicon,
+#cssicon,
+#phpicon,
+#booticon,
+#outroicon,
+#giticon {
+    font-size: 80px;
+    color: #96784C;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+#htmlicon:hover{
+    font-size: 90px;
+    color: #b86c25;
+    cursor: pointer;
+
+}
+
+#cssicon:hover{
+    font-size: 90px;
+    color: #317298;
+    cursor: pointer;
+
+}
+
+#phpicon:hover{
+    font-size: 90px;
+    color: #4f7ab9;
+    cursor: pointer;
+}
+
+#booticon:hover{
+    font-size: 90px;
+    color: #715ec0;
+    cursor: pointer;
+}
+
+#outroicon:hover{
+    font-size: 90px;
+    color: #68502d;
+    cursor: pointer;
+}
+#giticon:hover {
+    font-size: 90px;
+    color: #a03b94;
+    cursor: pointer;
+}
+
+#js-conteudo,
+#reactjs-conteudo,
+#type-conteudo,
+#css-conteudo {
+    width: 0; 
+    transition: width 3s ease-out;
+    transform-origin: right; 
+}
+
+
+.fill-bar#js-conteudo {
+    width: 92%;
+}
+
+.fill-bar#reactjs-conteudo {
+    width: 91%;
+}
+
+.fill-bar#type-conteudo {
+    width: 88%;
+}
+
+.fill-bar#css-conteudo {
+    width: 96%;
+}
