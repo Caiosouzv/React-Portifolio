@@ -191,3 +191,106 @@
     font-weight: 600;
 }
 
+@media (max-width: 1600px){
+
+    #meustxt {
+        width: 70%;
+        height: 4%;
+        font-size: 18px;
+        padding-right: 2%;
+        display: flex;
+        justify-content: end;
+        color: #432B06;
+    }
+    
+    #projetostxt {
+        width: 70%;
+        font-size: 35px;
+        font-weight: 700;
+        display: flex;
+        justify-content: end;
+        color: #96784C;
+    }
+
+    #info-basica01 {
+        font-size: 10px;
+        font-weight: 500;
+        color: #ffeed1;
+        margin-top: 1%;
+    }
+    
+    #botao01 {
+        background-color: transparent;
+        width: 40%;
+        height: 11%;
+        border: solid 3px #dbccb3;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #info-basica02 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #6b4f27;
+        margin-top: 1%;
+    }
+    
+    #botao02 {
+        background-color: transparent;
+        width: 40%;
+        height: 11%;
+        border: solid 3px #4a3519;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #proj01,
+    #proj02 {
+    width: 48%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    border: solid 3px #2D200A;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+#texto-git a {
+    color: #825b20;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+#texto-git{
+    width: 30%;
+    height: 40%;
+    text-align: start;
+    color: #9E7A43;
+    font-size: 14px;
+}
+
+}
+

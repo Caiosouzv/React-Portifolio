@@ -154,3 +154,58 @@
     transform: scale(1.1); 
 
 }
+
+
+@media (max-width: 1600px){
+    
+
+    #ai {
+        color: #8D6427;
+    }
+    
+    #uza {
+        color: #7C6440;
+    }
+    
+    #ola {
+        color: #7D6033;
+        margin-bottom: 0;
+        font-size: 20px;
+        margin-left:49%;
+    }
+    
+    #nome {
+        color: #5E4115;
+        font-size: 54px;
+        margin-left: 10%;
+    }
+    
+    #apresentacao-conteudo a {
+        width: 45%;
+        height: 6vh;
+        border-radius: 20px;
+        border: solid 3px #836336;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        font-weight: 600;
+        color: #836336;
+        fill: #836336;
+        margin-left: 55%;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    #instagram,
+    #linkedin,
+    #github {
+        height: 5vh;
+        margin-bottom: 3vh;
+        fill: #755A31;
+        cursor: pointer;
+}
+}

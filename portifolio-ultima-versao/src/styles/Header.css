@@ -52,3 +52,25 @@ li a{
 #K {
     color: #5E4115;
 }
+
+@media (max-width: 1600px){
+
+    li {
+        width: 10%;
+        color: #5E4115;
+        cursor: pointer;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+    }
+
+    #kyo a{
+        color: #a4814d;
+        width: 10%;
+        font-size: 24px;
+        display: flex;
+        justify-content: left;
+        font-weight: 300;
+    }
+}
