@@ -221,6 +221,43 @@
         color: #96784C;
         transition: font-size 0.5s ease, color 0.5s ease;
 }
+
+#htmlicon:hover{
+    font-size: 72px;
+    color: #b86c25;
+    cursor: pointer;
+
+}
+
+#cssicon:hover{
+    font-size: 72px;
+    color: #317298;
+    cursor: pointer;
+
+}
+
+#phpicon:hover{
+    font-size: 72px;
+    color: #4f7ab9;
+    cursor: pointer;
+}
+
+#booticon:hover{
+    font-size: 72px;
+    color: #715ec0;
+    cursor: pointer;
+}
+
+#outroicon:hover{
+    font-size: 72px;
+    color: #68502d;
+    cursor: pointer;
+}
+#giticon:hover {
+    font-size: 72px;
+    color: #a03b94;
+    cursor: pointer;
+}
     
 
 }
