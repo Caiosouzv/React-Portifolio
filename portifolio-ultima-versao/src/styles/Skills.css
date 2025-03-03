@@ -172,3 +172,55 @@
 .fill-bar#css-conteudo {
     width: 96%;
 }
+
+
+@media (max-width: 1600px){
+
+    #skills-baixo {
+        width: 70%;
+        height: 15%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-between;
+    }
+
+    #barras-skills {
+        height: 45%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .linguagem {
+        width: 12%;
+        display: flex;
+        justify-content: start;
+        font-size: 20px;
+        font-weight: 600;
+        color: #432B06;
+    }
+
+    #sei-fazer {
+        width: 70%;
+        height: 18%;
+        font-size: 25px;
+        font-weight: 600;
+        color: #432B06;
+        display: flex;
+        justify-content: end;
+    }
+
+    #htmlicon,
+    #cssicon,
+    #phpicon,
+    #booticon,
+    #outroicon,
+    #giticon {
+        font-size: 60px;
+        color: #96784C;
+        transition: font-size 0.5s ease, color 0.5s ease;
+}
+    
+
+}
