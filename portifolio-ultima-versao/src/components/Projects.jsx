@@ -10,7 +10,7 @@ const Projects = () => {
             <section id="section-projects">
                 
                 <div id="proj01">
-                    <div id="titulo01">PO<span id="ked">KED</span>EX #1</div>
+                    <div id="titulo01">PRO<span id="ked">JE</span>TO #1</div>
                     <div id="info-basica01">Projeto feito com JavaScript, primeira vez fazendo uso de API</div>
                     <div id="botao01">
                         <a href="https://github.com/Caiosouzv/pokedexx" target="_blank" rel="noopener noreferrer">ESPIAR</a>
