@@ -6,6 +6,11 @@
     
 }
 
+::selection {
+    background-color: #9a7f56; 
+    color: #d8d8d8; 
+  }
+
 #apresentacao {
     width: 45%;
     margin-left: 5%;
@@ -45,7 +50,7 @@
         width: 0%;
     }
     to {
-        width: 35%;
+        width: 38%;
     }
 }
 
@@ -66,7 +71,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 4s steps(22) infinite alternate,
-        blink 900ms steps(18) infinite normal;
+    blink 900ms steps(18) infinite normal;
     border-right: 5px solid #D8D8D8;
     margin-bottom: 4vh;
 }
