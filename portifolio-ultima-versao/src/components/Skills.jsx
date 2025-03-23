@@ -89,7 +89,7 @@ const Skills = () => {
                     <i className="fa fa-bootstrap" id="booticon"></i>
                 </div>
                 <div className="svg-skills">
-                    <i className="fa fa-html5" id="outroicon"></i>
+                    <i className="fa fa-node" id="outroicon"></i>
                 </div>
                 <div className="svg-skills">
                     <i className="fa fa-github" id="giticon"></i>

@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Space from './components/Space'; 
 import TopMark from './components/TopMark'; 
+import Contact from './components/Contact'; 
 
 import './styles/App.css';
 
@@ -21,6 +22,8 @@ const App = () => {
             <Skills />
             <Space />
             <Projects />
+            <Space />
+            <Contact />
             
         </div>
     );

@@ -4,7 +4,7 @@ import '../styles/TopMark.css';
 const TopMark = () => {
     return (
         <main id="main-top-mark">
-            cdcdc
+            
         </main>
     );
 };

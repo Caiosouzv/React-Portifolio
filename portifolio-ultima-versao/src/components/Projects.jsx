@@ -10,10 +10,10 @@ const Projects = () => {
             <section id="section-projects">
                 
                 <div id="proj01">
-                    <div id="titulo01">PRO<span id="ked">JE</span>TO #1</div>
-                    <div id="info-basica01">Projeto feito com JavaScript, primeira vez fazendo uso de API</div>
+                    <div id="titulo01">AINDA<span id="ked"> FA</span>ZER #1</div>
+                    <div id="info-basica01">ainda tenho q fazer um projeto pra essa bomba</div>
                     <div id="botao01">
-                        <a href="https://github.com/Caiosouzv/pokedexx" target="_blank" rel="noopener noreferrer">ESPIAR</a>
+                        <a href="https://github.com/Caiosouzv" target="_blank" rel="noopener noreferrer">ESPIAR</a>
                     </div>
                     <img src="/assets/gawx-projects.png" alt="Imagem do Projeto 01" id="imagem-projetos" />
                 </div>

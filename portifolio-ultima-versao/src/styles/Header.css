@@ -4,11 +4,13 @@ header {
     justify-content: center;
     height: 8vh;
     width: 100%;
-    position: fixed; /* Fixa o header no topo */
-    top: 0; /* Alinha o header no topo da página */
-    left: 0; /* Alinha o header à esquerda */
-    width: 100%; /* Ocupa toda a largura da tela */
-    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    /* 
+    position: fixed; /* 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 1000; 
+    */
     background-color: #D8D8D8;
 }
 

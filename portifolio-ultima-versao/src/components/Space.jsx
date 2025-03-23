@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Space.css'; // Importando o CSS específico para o componente
+import '../styles/Space.css'; 
 
 const Space = () => {
     return (
